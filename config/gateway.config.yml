@@ -5,13 +5,13 @@ admin:
   host: localhost
 apiEndpoints:
   auth:
-    host: 35.174.94.170
+    host: localhost
     paths: ['/auth/*']
   providers:
-    host: 35.174.94.170
+    host: localhost
     paths: ['/providers', '/providers/*', 'images-providers/*']
   events:
-    host: 35.174.94.170
+    host: localhost
     paths: ['/events', '/events/*', 'images-events/*']
 serviceEndpoints:
   httpbin:
